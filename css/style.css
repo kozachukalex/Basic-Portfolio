@@ -17,7 +17,6 @@ header{
     background: #ffffff;
     width: 960px;
     margin: 0 auto;
-    position: relative;
 }
 
 h1{
@@ -38,16 +37,28 @@ a{
     text-decoration: none;
 }
 
-a:link{
+a.class1:link{
     color: #777777;
 }
 
-a:visited{
+a.class1:visited{
     color: red;
 }
 
-a:hover{
+a.class1:hover{
     color: blue;
+}
+
+a.class2:link{
+    color: #ffffff;
+}
+
+a.class2:visited{
+    color: #ffffff;
+}
+
+a.class2:hover{
+    color: #ffffff;
 }
 
 section{
@@ -130,6 +141,7 @@ h4{
     padding: 15px 0;
     width: 100%;
     bottom: -10px;
+    text-decoration-color: #ffffff;
 
 }
 
