@@ -22,9 +22,15 @@ header{
     margin: 0 auto;
 }
 
+.class3{
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+
+}
 h1{
     display: inline-block;
-    color: #ffffff;
     background: #4aaaa5;
     margin: 0;
     padding: 20px;
@@ -64,6 +70,10 @@ a.class2:hover{
     color: #ffffff;
 }
 
+.class2 {
+    display: block;
+    padding: 10px 0;
+}
 section{
     background: #ffffff;
     border: 2px #dddddd solid;
@@ -80,6 +90,7 @@ h2{
     border-bottom: 4px #cccccc solid;
     padding-bottom: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer{
@@ -140,8 +151,12 @@ h4{
     color: #ffffff;
     background: #4aaaa5;
     text-align: center;
+<<<<<<< HEAD
     position: relative;
     padding: 15px 0;
+=======
+    position: absolute;
+>>>>>>> 2cd034d68bce5d60268a9154ca5214d362911cbc
     width: 100%;
     bottom: -10px;
     text-decoration-color: #ffffff;
