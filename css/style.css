@@ -70,9 +70,8 @@ a.class2:hover{
     color: #ffffff;
 }
 
-.class2 {
+a.class2 {
     display: block;
-    padding: 10px 0;
 }
 section{
     background: #ffffff;
@@ -151,12 +150,9 @@ h4{
     color: #ffffff;
     background: #4aaaa5;
     text-align: center;
-<<<<<<< HEAD
     position: relative;
     padding: 15px 0;
-=======
     position: absolute;
->>>>>>> 2cd034d68bce5d60268a9154ca5214d362911cbc
     width: 100%;
     bottom: -10px;
     text-decoration-color: #ffffff;
